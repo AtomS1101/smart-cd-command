@@ -23,6 +23,6 @@ Exact matches (case-insensitive) always take priority over partial matches.
 
 | Query | Directories found | Result |
 |---|---|---|
-| `fcd project` | `Project`, `PythonProject`, `school_project` | ✅ cd into `Project` |
-| `fcd python` | `PythonProject`, `school_python` | 📋 lists both |
-| `fcd python` | `Python`, `PythonProject` | ✅ cd into `Python` |
+| `fcd project` | `Project`, `PythonProject`, `school_project` | cd into `Project` |
+| `fcd python` | `PythonProject`, `school_python` | lists both |
+| `fcd python` | `Python`, `PythonProject` | cd into `Python` |
